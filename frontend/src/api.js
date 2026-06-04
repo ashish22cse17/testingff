@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:3001/api'
+const BASE = 'https://testingff.onrender.com/api'
 
 function token() {
   return localStorage.getItem('galaxy_token') || ''
