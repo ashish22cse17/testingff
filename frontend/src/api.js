@@ -1,4 +1,4 @@
-const BASE = 'https://testingff.onrender.com/api'
+const BASE = import.meta.env.VITE_API_URL || 'https://testingff.onrender.com/api'
 
 function token() {
   return localStorage.getItem('galaxy_token') || ''
